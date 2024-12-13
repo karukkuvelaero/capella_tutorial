@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:concern="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/7.0.0" xmlns:org.polarsys.capella.core.data.information.datatype="http://www.polarsys.org/capella/core/information/datatype/7.0.0" xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/7.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/concern http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.polarsys.org/capella/core/information/datatype/7.0.0 http://www.polarsys.org/capella/core/information/7.0.0#//datatype http://www.polarsys.org/capella/core/information/datavalue/7.0.0 http://www.polarsys.org/capella/core/information/7.0.0#//datavalue http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_dQBe4KyjEe-_SuJ3Xs4QBg" selectedViews="_dQTywKyjEe-_SuJ3Xs4QBg _dQziAKyjEe-_SuJ3Xs4QBg _dTaxIKyjEe-_SuJ3Xs4QBg _dUDDQKyjEe-_SuJ3Xs4QBg _dUcE0KyjEe-_SuJ3Xs4QBg _dUd6AKyjEe-_SuJ3Xs4QBg _dVRLQKyjEe-_SuJ3Xs4QBg" version="15.4.1.202403191723">
+    <semanticResources>WeatherLib.afm</semanticResources>
+    <semanticResources>WeatherLib.capella</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_dQTywKyjEe-_SuJ3Xs4QBg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_dQziAKyjEe-_SuJ3Xs4QBg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_dTaxIKyjEe-_SuJ3Xs4QBg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_dUDDQKyjEe-_SuJ3Xs4QBg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_dUcE0KyjEe-_SuJ3Xs4QBg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/EPBS.odesign#//@ownedViewpoints[name='EPBS%20architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_dUd6AKyjEe-_SuJ3Xs4QBg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_dVRLQKyjEe-_SuJ3Xs4QBg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ISG9sKynEe-qTP9j5Njpsw" name="[CDB] Domain Types" repPath="#_IR7XgKynEe-qTP9j5Njpsw" changeId="1732702371391">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.information:DataPkg" href="WeatherLib.capella#7f9b0b46-a97a-4134-9d11-7d67426bf00c"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_IR7XgKynEe-qTP9j5Njpsw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ISJZ8KynEe-qTP9j5Njpsw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_ISJZ8aynEe-qTP9j5Njpsw" type="Sirius" element="_IR7XgKynEe-qTP9j5Njpsw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Lj1NIKynEe-qTP9j5Njpsw" type="2001" element="_LjsqQKynEe-qTP9j5Njpsw">
+          <children xmi:type="notation:Node" xmi:id="_Lj2bQKynEe-qTP9j5Njpsw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lj2bQaynEe-qTP9j5Njpsw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lj3CUKynEe-qTP9j5Njpsw" type="3003" element="_LjtRUKynEe-qTP9j5Njpsw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lj3CUaynEe-qTP9j5Njpsw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lj3CUqynEe-qTP9j5Njpsw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lj1NIaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lj1NIqynEe-qTP9j5Njpsw" x="80" y="250"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_L0h7kKynEe-qTP9j5Njpsw" type="2001" element="_L0UgMKynEe-qTP9j5Njpsw">
+          <children xmi:type="notation:Node" xmi:id="_L0jJsKynEe-qTP9j5Njpsw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_L0jJsaynEe-qTP9j5Njpsw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L0kX0KynEe-qTP9j5Njpsw" type="3003" element="_L0UgMaynEe-qTP9j5Njpsw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L0kX0aynEe-qTP9j5Njpsw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L0kX0qynEe-qTP9j5Njpsw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_L0h7kaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L0h7kqynEe-qTP9j5Njpsw" x="306" y="330"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NATyMKynEe-qTP9j5Njpsw" type="2003" element="_NAKoQKynEe-qTP9j5Njpsw">
+          <children xmi:type="notation:Node" xmi:id="_NATyM6ynEe-qTP9j5Njpsw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_NATyNKynEe-qTP9j5Njpsw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_U4RM8KynEe-qTP9j5Njpsw" type="3010" element="_U4M7gKynEe-qTP9j5Njpsw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_U4RM8aynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_U4RM8qynEe-qTP9j5Njpsw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_NATyNaynEe-qTP9j5Njpsw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_NATyNqynEe-qTP9j5Njpsw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_NATyMaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NATyMqynEe-qTP9j5Njpsw" x="40" y="190"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NfS0QKynEe-qTP9j5Njpsw" type="2003" element="_NfGnAKynEe-qTP9j5Njpsw">
+          <children xmi:type="notation:Node" xmi:id="_NfS0Q6ynEe-qTP9j5Njpsw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_NfS0RKynEe-qTP9j5Njpsw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_b-oysKynEe-qTP9j5Njpsw" type="3010" element="_b-mWcKynEe-qTP9j5Njpsw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_b-oysaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_b-oysqynEe-qTP9j5Njpsw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_NfS0RaynEe-qTP9j5Njpsw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_NfS0RqynEe-qTP9j5Njpsw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_NfS0QaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NfS0QqynEe-qTP9j5Njpsw" x="210" y="266"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_i5SQoKynEe-qTP9j5Njpsw" type="2003" element="_i5KU0KynEe-qTP9j5Njpsw">
+          <children xmi:type="notation:Node" xmi:id="_i5S3sKynEe-qTP9j5Njpsw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_i5S3saynEe-qTP9j5Njpsw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vo5W0KynEe-qTP9j5Njpsw" type="3010" element="_vo26lKynEe-qTP9j5Njpsw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vo5W0aynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vo5W0qynEe-qTP9j5Njpsw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_yCC_gKynEe-qTP9j5Njpsw" type="3010" element="_yB_8MaynEe-qTP9j5Njpsw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_yCC_gaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yCC_gqynEe-qTP9j5Njpsw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_i5S3sqynEe-qTP9j5Njpsw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_i5S3s6ynEe-qTP9j5Njpsw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_i5SQoaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i5SQoqynEe-qTP9j5Njpsw" x="460" y="500"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_jhijcKynEe-qTP9j5Njpsw" type="2003" element="_jhb1wKynEe-qTP9j5Njpsw">
+          <children xmi:type="notation:Node" xmi:id="_jhijc6ynEe-qTP9j5Njpsw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_jhjKgKynEe-qTP9j5Njpsw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_n6PCAKynEe-qTP9j5Njpsw" type="3010" element="_n6L-taynEe-qTP9j5Njpsw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_n6PCAaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n6PCAqynEe-qTP9j5Njpsw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sTrHcKynEe-qTP9j5Njpsw" type="3010" element="_sToEKaynEe-qTP9j5Njpsw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_sTrHcaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_sTrHcqynEe-qTP9j5Njpsw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_jhjKgaynEe-qTP9j5Njpsw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_jhjKgqynEe-qTP9j5Njpsw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jhijcaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jhijcqynEe-qTP9j5Njpsw" x="620" y="500"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_13SywKynEe-qTP9j5Njpsw" type="2003" element="_13LeAKynEe-qTP9j5Njpsw">
+          <children xmi:type="notation:Node" xmi:id="_13Syw6ynEe-qTP9j5Njpsw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_13SyxKynEe-qTP9j5Njpsw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_HdqzkKyoEe-qTP9j5Njpsw" type="3010" element="_Hdje0KyoEe-qTP9j5Njpsw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_HdqzkayoEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_HdqzkqyoEe-qTP9j5Njpsw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_JdZ2sKyoEe-qTP9j5Njpsw" type="3010" element="_JdTJAKyoEe-qTP9j5Njpsw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_JdZ2sayoEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JdZ2sqyoEe-qTP9j5Njpsw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_13SyxaynEe-qTP9j5Njpsw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_13SyxqynEe-qTP9j5Njpsw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_13SywaynEe-qTP9j5Njpsw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_13SywqynEe-qTP9j5Njpsw" x="560" y="390"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_ISJZ8qynEe-qTP9j5Njpsw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ISbt0KynEe-qTP9j5Njpsw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_ISbt0aynEe-qTP9j5Njpsw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LjsqQKynEe-qTP9j5Njpsw" name="Celsius" width="5" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.information:Unit" href="WeatherLib.capella#d9715b1b-faad-45df-9dda-0729dc98e71c"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.information:Unit" href="WeatherLib.capella#d9715b1b-faad-45df-9dda-0729dc98e71c"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_LjtRUKynEe-qTP9j5Njpsw" borderSize="1" borderSizeComputationExpression="1" borderColor="103,103,103" labelPosition="node" width="-1" height="-1" color="214,197,171">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@nodeMappings[name='DT_Unit']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@nodeMappings[name='DT_Unit']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_L0UgMKynEe-qTP9j5Njpsw" name="hectoPascal" width="5" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.information:Unit" href="WeatherLib.capella#67bb0266-0758-42ce-a7af-7bcde525d9df"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.information:Unit" href="WeatherLib.capella#67bb0266-0758-42ce-a7af-7bcde525d9df"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_L0UgMaynEe-qTP9j5Njpsw" borderSize="1" borderSizeComputationExpression="1" borderColor="103,103,103" labelPosition="node" width="-1" height="-1" color="214,197,171">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@nodeMappings[name='DT_Unit']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@nodeMappings[name='DT_Unit']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_NAKoQKynEe-qTP9j5Njpsw" name="Temperature_C">
+      <target xmi:type="org.polarsys.capella.core.data.information.datatype:PhysicalQuantity" href="WeatherLib.capella#4a3f64eb-edf9-46e3-a3ee-f6c638573abc"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.information.datatype:PhysicalQuantity" href="WeatherLib.capella#4a3f64eb-edf9-46e3-a3ee-f6c638573abc"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_NALPUKynEe-qTP9j5Njpsw" borderSize="1" borderSizeComputationExpression="1" borderColor="103,103,103" backgroundStyle="GradientTopToBottom" backgroundColor="232,224,210" foregroundColor="232,224,210">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_U4M7gKynEe-qTP9j5Njpsw" name="[min] AbsoluteZero = -273 (Celsius)">
+        <target xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#864fa716-74b0-4670-875c-ef89907f8507"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#864fa716-74b0-4670-875c-ef89907f8507"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_U4OJoKynEe-qTP9j5Njpsw" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_NfGnAKynEe-qTP9j5Njpsw" name="Pressure_hPa">
+      <target xmi:type="org.polarsys.capella.core.data.information.datatype:PhysicalQuantity" href="WeatherLib.capella#24048623-06a0-4d58-b898-f9b4f849a824"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.information.datatype:PhysicalQuantity" href="WeatherLib.capella#24048623-06a0-4d58-b898-f9b4f849a824"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_NfHOEKynEe-qTP9j5Njpsw" borderSize="1" borderSizeComputationExpression="1" borderColor="103,103,103" backgroundStyle="GradientTopToBottom" backgroundColor="232,224,210" foregroundColor="232,224,210">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_b-mWcKynEe-qTP9j5Njpsw" name="[default] StandardAtmosphere = 1013.25 (hectoPascal)">
+        <target xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#b5d3d65d-2e60-4fb1-a195-f5fc6a5bae5f"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#b5d3d65d-2e60-4fb1-a195-f5fc6a5bae5f"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_b-mWcaynEe-qTP9j5Njpsw" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_i5KU0KynEe-qTP9j5Njpsw" name="Hour">
+      <target xmi:type="org.polarsys.capella.core.data.information.datatype:NumericType" href="WeatherLib.capella#c904222f-5d45-4029-a44f-dbf241383a8f"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.information.datatype:NumericType" href="WeatherLib.capella#c904222f-5d45-4029-a44f-dbf241383a8f"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_i5KU0aynEe-qTP9j5Njpsw" borderSize="1" borderSizeComputationExpression="1" borderColor="103,103,103" backgroundStyle="GradientTopToBottom" backgroundColor="232,224,210" foregroundColor="232,224,210">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_vo26lKynEe-qTP9j5Njpsw" name="[min]  = 0">
+        <target xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#bf1e1092-b620-49e2-b992-bc685a8fcdf8"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#bf1e1092-b620-49e2-b992-bc685a8fcdf8"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_vo26laynEe-qTP9j5Njpsw" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_yB_8MaynEe-qTP9j5Njpsw" name="[max]  = 23">
+        <target xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#f9bfb738-6960-4b0e-ab08-c9eed5449d22"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#f9bfb738-6960-4b0e-ab08-c9eed5449d22"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_yB_8MqynEe-qTP9j5Njpsw" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_jhb1wKynEe-qTP9j5Njpsw" name="Minute">
+      <target xmi:type="org.polarsys.capella.core.data.information.datatype:NumericType" href="WeatherLib.capella#0bb2107b-80e2-4f22-8236-14bf58614c64"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.information.datatype:NumericType" href="WeatherLib.capella#0bb2107b-80e2-4f22-8236-14bf58614c64"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_jhb1waynEe-qTP9j5Njpsw" borderSize="1" borderSizeComputationExpression="1" borderColor="103,103,103" backgroundStyle="GradientTopToBottom" backgroundColor="232,224,210" foregroundColor="232,224,210">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_n6L-taynEe-qTP9j5Njpsw" name="[min]  = 0">
+        <target xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#38feb14e-0f83-42be-8e62-3fc09e366823"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#38feb14e-0f83-42be-8e62-3fc09e366823"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_n6MlwKynEe-qTP9j5Njpsw" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_sToEKaynEe-qTP9j5Njpsw" name="[max]  = 59">
+        <target xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#d9f242d2-801a-45ef-ac0a-6a10cd189209"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue" href="WeatherLib.capella#d9f242d2-801a-45ef-ac0a-6a10cd189209"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_sTorMKynEe-qTP9j5Njpsw" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_DataType']/@subNodeMappings[name='Contents']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_13LeAKynEe-qTP9j5Njpsw" name="TimeStamp">
+      <target xmi:type="org.polarsys.capella.core.data.information:Class" href="WeatherLib.capella#05502474-b7a5-43b0-8ac5-570c5d8c444d"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.information:Class" href="WeatherLib.capella#05502474-b7a5-43b0-8ac5-570c5d8c444d"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3AkvAaynEe-qTP9j5Njpsw" borderSize="1" borderSizeComputationExpression="1" borderColor="103,103,103" backgroundStyle="Liquid" backgroundColor="232,224,210" foregroundColor="232,224,210">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_Class']/@conditionnalStyles.1/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Hdje0KyoEe-qTP9j5Njpsw" name=" min : Minute">
+        <target xmi:type="org.polarsys.capella.core.data.information:Property" href="WeatherLib.capella#4930dfac-f8db-4d73-8ae3-721caf3e1613"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.information:Property" href="WeatherLib.capella#4930dfac-f8db-4d73-8ae3-721caf3e1613"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_HdkF4KyoEe-qTP9j5Njpsw" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_Class']/@subNodeMappings[name='DT_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_Class']/@subNodeMappings[name='DT_Property']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_JdTJAKyoEe-qTP9j5Njpsw" name=" h : Hour">
+        <target xmi:type="org.polarsys.capella.core.data.information:Property" href="WeatherLib.capella#2ddbd942-3312-4c98-a8ea-c053795d70fe"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.information:Property" href="WeatherLib.capella#2ddbd942-3312-4c98-a8ea-c053795d70fe"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_JdTJAayoEe-qTP9j5Njpsw" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_Class']/@subNodeMappings[name='DT_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_Class']/@subNodeMappings[name='DT_Property']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']"/>
+    <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@concerns/@ownedConcernDescriptions.0"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@filters[name='hide.association.labels.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@filters[name='hide.technical.interfaces.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_ISAQAKynEe-qTP9j5Njpsw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@additionalLayers[name='Communication%20Model']"/>
+    <target xmi:type="org.polarsys.capella.core.data.information:DataPkg" href="WeatherLib.capella#7f9b0b46-a97a-4134-9d11-7d67426bf00c"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

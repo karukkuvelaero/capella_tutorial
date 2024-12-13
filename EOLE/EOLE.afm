@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata:Metadata xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metadata="http://www.polarsys.org/kitalpha/ad/metadata/1.0.0" id="_aMd8gKY7Ee-28ONlsBQQ4w">
+  <viewpointReferences id="_aMt0IKY7Ee-28ONlsBQQ4w" vpId="org.polarsys.capella.core.viewpoint" version="7.0.0"/>
+  <viewpointReferences id="_6v4R8LE_Ee-Gdc3vIJFMXg" vpId="org.polarsys.capella.vp.mass" version="7.0.0.qualifier"/>
+  <additionalMetadata href="../WeatherLib/WeatherLib.afm#_dQA30KyjEe-_SuJ3Xs4QBg"/>
+</metadata:Metadata>
