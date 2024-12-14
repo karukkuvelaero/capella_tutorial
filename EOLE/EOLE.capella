@@ -2742,11 +2742,17 @@
                 id="c92c1fb3-fd2f-41b4-8c61-6b53812d49a2" sid="c92c1fb3-fd2f-41b4-8c61-6b53812d49a2"
                 targetElement="#42639467-06b2-4ea4-91b0-93f61a181a45" sourceElement="#cf95ce32-0823-494b-8a8b-a02617a6ec42"/>
           </ownedComponentExchanges>
+          <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+              id="8141b6cd-96d9-4d3f-8714-b7964bcf5f8d" name="D 2" source="#20e4b021-5fb4-4903-92b0-03ec05eb3230"
+              target="#993af2a2-cb5d-4c09-a542-98d79281c757" kind="DELEGATION"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="faa3fa96-e2ba-42c9-8e20-4ed7bd4b8ec2"
               sid="faa3fa96-e2ba-42c9-8e20-4ed7bd4b8ec2" name="Acquisition Subsystem"
               abstractType="#abef7882-bf7b-4ba0-805b-7773189d655d"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="de3ee14b-4e8a-4d0f-ab56-23b8e762c2d2"
               sid="de3ee14b-4e8a-4d0f-ab56-23b8e762c2d2" name="Ground Subsystem" abstractType="#f548103a-e5f2-4a5f-982e-88a2a9f94f0f"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+              id="20e4b021-5fb4-4903-92b0-03ec05eb3230" name="CP 3" orientation="IN"
+              kind="FLOW"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="07b3c936-1109-457e-8550-d4539f78d575" targetElement="#1ff09a45-04f5-49d4-af80-fdb68a94a960"
               sourceElement="#d4043861-bc83-4dcd-a3ba-5b6fb972daad"/>
@@ -2852,6 +2858,9 @@
                   id="f9388333-ebf6-4098-9881-60d9d274e4a5" sid="f9388333-ebf6-4098-9881-60d9d274e4a5"
                   targetElement="#38237c75-2131-4e86-b566-73578e43654b" sourceElement="#bb52906d-abb4-4203-88dc-87564a5f014b"/>
             </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="993af2a2-cb5d-4c09-a542-98d79281c757" name="CP 8" orientation="IN"
+                kind="FLOW"/>
           </ownedLogicalComponents>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
